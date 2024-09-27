@@ -39,4 +39,7 @@ form button{
         flex-direction: column;
         gap: 0;
     }
+    label{
+        color: black;
+    }
   }
