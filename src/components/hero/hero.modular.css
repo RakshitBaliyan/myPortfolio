@@ -1,0 +1,81 @@
+.hero{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5rem;
+}
+.social-links{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.name-text{
+    color: #003140;
+    width: 50%;
+}
+.name-text h1{
+    text-shadow: 2px 2px 2px rgb(58, 58, 58);
+}
+.aboutMe-btn button{
+    background-color: #003140;
+    color: rgb(255, 255, 255);
+    border: 1px solid black;
+    width: 175px;
+    box-shadow: 0px 0px 5px rgb(56, 56, 56);
+}
+.aboutMe-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.changing-text{
+    color: #ff0000;
+}
+
+.project-btn-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.project-btn{
+    background-color: #003140;
+    color: rgb(255, 255, 255);
+    border: 1px solid black;
+    margin-top: 2rem;
+    width: 175px;
+    box-shadow: 0px 0px 5px rgb(56, 56, 56);
+}
+
+
+  /* Mobile styles (below 768px) */
+  @media only screen and (max-width: 1023px) {
+    .name-text{
+        width: 90%;
+    }
+    .logo-area img{
+        width: 90%;
+    }
+    .hero{
+        flex-direction: column;
+    }
+    .social-links{
+        flex-direction: row;
+    }
+  }
+
+  @media only screen and (max-width: 767px) {
+    .hero{
+        margin-top: 1rem;
+        gap: 1rem;
+    }
+    .name-text h1{
+        font-size: 3rem;
+    }
+    .logo-area img{
+        width: 90%;
+        height: auto;
+        margin: 0.5rem auto;
+    }
+  }

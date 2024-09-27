@@ -1,0 +1,31 @@
+.card{
+    width: 30%;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 0px  5px rgb(48, 48, 48);
+    background-color: #003140;
+    color: white;
+    padding: 10px;
+}
+.card>img{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100%;
+    box-shadow: 0px 0px 8px rgb(255, 255, 255);
+}
+.card-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.card-btn button{
+    background-color: #fefefe;
+    color: #003140;
+}
+
+@media only screen and (max-width: 1023px) {
+    .card{
+        width: 80%;
+  }
+}

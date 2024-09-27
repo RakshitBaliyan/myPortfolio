@@ -1,0 +1,42 @@
+.contact-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 3px 3px 6px gray;
+    max-width: 800px;
+    margin: 5rem auto;
+}
+.form-div{
+    text-align: left;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.form-div input{
+    width: 280px;
+}
+.form-div textarea{
+    width: 280px;
+    height: 70px;
+}
+form button{
+    background-color: #003140;
+    color: white;
+}
+
+@media only screen and (max-width: 1023px) {
+    .contact-section{
+        max-width: 750px;
+    }
+  }
+
+  @media only screen and (max-width: 767px) {
+    .contact-section{
+        width: 90%;
+        margin: 3rem auto;
+        flex-direction: column;
+        gap: 0;
+    }
+  }
