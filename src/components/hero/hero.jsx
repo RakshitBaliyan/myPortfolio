@@ -4,7 +4,7 @@ import gif from '../../assets/hero-gif.gif';
 import arrowRight from '../../assets/arrow-right.svg';
 import arrowDown from '../../assets/arrow-down.svg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedin, faGithub, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin, faGithub, faInstagram } from '@fontawesome/free-brands-svg-icons';
 import { Link } from 'react-scroll';
 
 
